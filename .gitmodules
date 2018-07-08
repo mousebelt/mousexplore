@@ -1,0 +1,6 @@
+[submodule "mousexplore-frontend"]
+	path = mousexplore-frontend
+	url = git@github.com:norestlabs/mousexplore-frontend.git
+[submodule "mousexplore-vcoins"]
+	path = mousexplore-vcoins
+	url = git@github.com:norestlabs/mousexplore-vcoins.git
