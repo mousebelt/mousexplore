@@ -11,3 +11,14 @@ There are two components: A frontend that serves as a ui, and a backend "vcoins"
 
 [**mousexplore-vcoins**](https://github.com/norestlabs/mousexplore-vcoins) - This is the backend, a nodejs cron and rest API that connects to mongodb and the specific node you would like to serve information from. To setup, clone the backend repo, then follow the specific setup instructions in the folder to share data. Pull requests are welcome to add new features, blockchains or any fixes you see that should be made. You are also welcome to copy it and add your own cryptocurrency. We recommend using whichever existing blockchain is closet to your application for this reason.
 
+### Documentation
+
+The [**API Docs**](https://github.com/norestlabs/mousexplore-vcoins/wiki) can be found inside of the vcoins repo. MouseBelt maintains APIs for the cryptocurrencies listed in the repo, you are welcome to host them yourself!
+
+### Contributing
+
+If you see a change you would like to make, please file an issue in the appropriate repository. If you are unsure or have a general request, file it inside this one. 
+
+### Usage
+
+You are free to copy this repository and use however you like, under the MIT license. If you do end up using it, send a link! We'd love to see more copies out in the wild.
