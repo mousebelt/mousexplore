@@ -3,6 +3,22 @@ The MouseXplore Block Explorer
 
 This project is created by MouseBelt and No Rest Labs to serve as a multi-currency block explorer. It supports both testnet and livenet transactions for cryptocurrencies, and is made to be easily branded and forked.
 
+### Getting Started
+
+This is a repository containing the latest release, and both paired submodules. You will need both the frontend and backend module to run this application (we have a [sample hosted deployment](https://mousexplore.mousebelt.com) available online as well).
+
+To get started, you will need to host the frontend and backend on whichever instances you wish to run the explorer on. You can also download the latest releases recursively from this module using the following commands.
+
+##### Using HTTPS:
+```
+git clone --recurse-submodules -j8 https://github.com/norestlabs/mousexplore.git
+```
+
+##### Using SSH:
+```
+git clone --recurse-submodules -j8 git@github.com:norestlabs/mousexplore
+```
+
 ### Project Structure
 
 There are two components: A frontend that serves as a ui, and a backend "vcoins" layer that serves enriched blockchain information through a Rest API.
